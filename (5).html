@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buttons</title>
+<style>
+  body {
+    
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(' 9.jpg');
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  .button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin: 5px; /* Spacing between buttons and headers */
+    display: block; /* Change to block to fill width inside the flex item */
+  }
+
+  /* Uber Request Now button with opacity */
+  .uber-button {
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+  }
+  .uber-button:hover {
+    opacity: 1; /* Full opacity on hover */
+  }
+
+  /* Amazon Add to Cart button with background color */
+  .amazon-button {
+    background-color: #FF9900;
+    color: black;
+    border-radius: 3px;
+  }
+  .amazon-button:hover {
+    background-color: #E68A00; /* Darker shade on hover */
+  }
+  
+  /* GitHub Sign In button with shadow */
+  .github-button {
+    background-color: #4CAF50;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+  }
+  .github-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+  }
+  
+  h1 {
+    margin: 10px 0; /* Spacing above and below the headers */
+  }
+</style>
+</head>
+<body>
+
+<div class="content">
+<h1> Uber Button
+    
+    
+     
+       </h1>
+<marquee>   <button class="button uber-button">Request Now</button></marquee> 
+<h1> Amazon Button
+    
+    
+     
+       </h1>
+
+ <marquee> <button class="button amazon-button">Add to Cart</button></marquee> 
+  <h1> Github Button
+    
+    
+     
+    </h1>
+
+  
+  <marquee><button class="button github-button">Sign In</button></marquee>
+</div>
+
+</body>
+</html>
